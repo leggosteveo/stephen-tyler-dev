@@ -1,0 +1,84 @@
+          <div id="large-nav">
+            <div id="large-nav-content">
+              <p className="jordan-quote">
+                I’ve missed more than 9,000 shots in my career. I’ve lost almost
+                300 games. Twenty-six times I’ve been trusted to take the
+                game-winning shot and missed. I’ve failed over and over and over
+                again in my life. And that is why I succeed.
+                <br />
+                <span className="michael-jordan"> - Michael Jordan</span>
+              </p>
+              <h6 className="nav-header">Some Random Memes</h6>
+              <img src={this.state.memeUrl} />
+              <br />
+              <Button className="meme-button" onClick={this.getNewMeme}>
+                New Meme
+              </Button>
+            </div>
+            <div id="desktop-social-links-div">
+              <div>
+                <a
+                  href="https://github.com/leggosteveo"
+                  class="fa fa-github"
+                  target="_blank"
+                ></a>
+              </div>
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/stephen-tyler-2674b745/"
+                  class="fa fa-linkedin"
+                  target="_blank"
+                ></a>
+              </div>
+              <div>
+                <a
+                  href="mailto:sjtyler2@mail.usf.edu"
+                  class="fa fa-envelope"
+                  target="_blank"
+                ></a>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <!--------------------!>
+
+
+
+
+
+
+            constructor(props) {
+    super(props);
+    this.state = { memeUrl: "./img/IMG_3588.jpg" };
+    this.getMeme = this.getMeme.bind(this);
+  }
+
+            componentDidMount() {
+    this.getMeme();
+  }
+  getMeme() {
+    let memes = [
+      "./img/IMG_3588.jpg",
+      "./img/memes/IMG_3716.jpg",
+      "./img/memes/IMG_3715.jpg",
+      "./img/memes/IMG_3714.jpg",
+      "./img/memes/IMG_3713.jpg",
+      "./img/memes/IMG_3712.jpg",
+      "./img/memes/IMG_3711.jpg",
+      "./img/memes/IMG_3702.jpg",
+      "./img/memes/IMG_3703.jpg",
+      "./img/memes/IMG_3704.jpg",
+      "./img/memes/IMG_3691.jpg",
+    ];
+    let memeNumber = Math.floor(Math.random() * memes.length);
+    let randomMeme = memes[memeNumber];
+    this.setState({ memeUrl: randomMeme });
+  }
+
+  getNewMeme = () => {
+    //will be called on clicking the New Meme button
+    this.getMeme();
+  };
