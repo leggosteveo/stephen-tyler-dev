@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/stephen-tyler-dev/precache-manifest.6cbdd2ed7081d1573f8e436df74e13a1.js"
+  "/stephen-tyler-dev/precache-manifest.472287603978c71f4cfe04c11c34588a.js"
 );
 
 self.addEventListener('message', (event) => {
