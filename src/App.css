@@ -225,11 +225,6 @@ section {
   width: 100%;
 }
 
-.navbar-toggler {
-  position: absolute;
-  right: 15px;
-}
-
 .profile-link {
   color: white !important;
 }

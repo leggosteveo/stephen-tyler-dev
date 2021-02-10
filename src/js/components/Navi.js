@@ -3,12 +3,12 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { Link } from "react-scroll";
 
-const Navi = (pdf) => (
+const Navi = () => (
   <Navbar bg="dark" variant="dark" expand="lg">
     <Navbar.Brand href="#home">STEPHEN TYLER</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="mr-auto">
+    <Navbar.Collapse id="responsive-navbar-nav">
+      <Nav className="ml-auto">
         <Nav.Link
           href="#home"
           activeClass="active"
@@ -52,7 +52,10 @@ const Navi = (pdf) => (
         >
           About
         </Nav.Link>
-        <Nav.Link href={require("../../docs/Stephen_Tyler_Resume.PDF")}>
+        <Nav.Link
+          href={require("../../docs/Stephen_Tyler_Resume.PDF")}
+          target="blank"
+        >
           Resume
         </Nav.Link>
         <Nav.Link
