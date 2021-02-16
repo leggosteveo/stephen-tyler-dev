@@ -66,15 +66,6 @@ class App extends Component {
           gitHub: "https://github.com/leggosteveo/luther-construction",
         },
         {
-          title: "Nice Work Steve",
-          description:
-            "This was the first rendention of me showcasing my web development skills.",
-          image: require("./img/nws_project.png"),
-          tech: [],
-          url: "http://goodjobsteve.000webhostapp.com/",
-          gitHub: "",
-        },
-        {
           title: "Trale Williams Imaging",
           description:
             "This was a project I built for the client's photography company. It was my first introduction to using Javascript frameworks, and it utilitized AngularJS",
