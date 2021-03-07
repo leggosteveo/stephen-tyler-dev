@@ -4,12 +4,15 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 html,
 #root,
 .App {
   height: 100%;
-  scroll-behavior: smooth;
 }
 
 a {
@@ -205,12 +208,10 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 15%;
   position: fixed;
 }
 
 .navbar-brand {
-  border: 2px solid black;
   border-radius: 2px;
   padding: 2px 4px;
 }
@@ -232,11 +233,10 @@ section {
 .project-div {
   border-bottom: 2px solid#122e04;
   float: none;
-  margin: 6px auto;
-  padding: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
   scroll-snap-align: start;
   white-space: normal;
-  width: 90%;
 }
 
 .project-description {
@@ -289,9 +289,8 @@ section {
 
 .section-title {
   color: #122e04;
-  font-size: 150%;
   font-weight: bolder;
-  margin-top: 30px;
+  text-align: center;
 }
 
 .site-code-div {
@@ -362,6 +361,11 @@ section {
   width: 40px;
 }
 
+#nav-profile-links-container {
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (min-width: 540px) {
   .navbar {
     box-shadow: 2px 0px 20px black;
@@ -370,10 +374,6 @@ section {
 
   .navbar-nav {
     position: relative;
-  }
-
-  .project-div {
-    flex-direction: row;
   }
 
   .project-info {
@@ -393,14 +393,6 @@ section {
 }
 
 @media screen and (min-width: 670px) {
-  .jordan-quote {
-    padding: 5%;
-  }
-
-  .meme-button {
-    margin-top: 1%;
-  }
-
   .navbar-collapse {
     align-items: flex-start;
     flex-grow: initial;

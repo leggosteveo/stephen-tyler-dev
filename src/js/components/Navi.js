@@ -58,21 +58,23 @@ const Navi = () => (
         >
           Resume
         </Nav.Link>
-        <Nav.Link
-          href="https://github.com/leggosteveo"
-          className="fa fa-github lh profile-Nav."
-          target="_blank"
-        ></Nav.Link>
-        <Nav.Link
-          href="https://www.linkedin.com/in/stephen-tyler-2674b745/"
-          className="fa fa-linkedin lh profile-link"
-          target="_blank"
-        ></Nav.Link>
-        <Nav.Link
-          href="mailto:sjtyler2@mail.usf.edu"
-          className="fa fa-envelope lh profile-link"
-          target="_blank"
-        ></Nav.Link>
+        <div id="nav-profile-links-container">
+          <Nav.Link
+            href="https://github.com/leggosteveo"
+            className="fa fa-github lh profile-Nav."
+            target="_blank"
+          ></Nav.Link>
+          <Nav.Link
+            href="https://www.linkedin.com/in/stephen-tyler-2674b745/"
+            className="fa fa-linkedin lh profile-link"
+            target="_blank"
+          ></Nav.Link>
+          <Nav.Link
+            href="mailto:sjtyler2@mail.usf.edu"
+            className="fa fa-envelope lh profile-link"
+            target="_blank"
+          ></Nav.Link>
+        </div>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
