@@ -74,6 +74,18 @@ class App extends Component {
           url: "https://tralewilliamsimaging.herokuapp.com/",
           gitHub: "",
         },
+        {
+          title: "Diana Carlstrom Events",
+          description:
+            "This was a project I built for the client's event planning business",
+          tech: [
+            { name: "Wordpress" },
+            { name: "HTML5", img: require("./img/HTML5_Badge.png") },
+            { name: "CSS3", img: require("./img/CSS3_Badge.png") },
+          ],
+          url: "https://www.dianacarlstromevents.com/",
+          gitHub: "",
+        },
       ],
     };
   }
