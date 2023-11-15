@@ -62,7 +62,7 @@ class App extends Component {
             { name: "Express", img: require("./img/ExpressJS_Badge.png") },
             { name: "Mongoose", img: require("./img/Mongoose_Badge.png") },
           ],
-          url: "https://luther-construction.herokuapp.com/",
+          url: "https://frontend-1cc6.onrender.com",
           gitHub: "https://github.com/leggosteveo/luther-construction",
         },
         {
@@ -71,7 +71,7 @@ class App extends Component {
             "This was a project I built for the client's photography company. It was my first introduction to using Javascript frameworks, and it utilitized AngularJS",
           image: require("./img/trale_williams_project.png"),
           tech: [],
-          url: "https://tralewilliamsimaging.herokuapp.com/",
+          url: "https://trale-williams.onrender.com",
           gitHub: "",
         },
         {
@@ -79,7 +79,6 @@ class App extends Component {
           description:
             "This was a project I built for the client's event planning business",
           tech: [
-            { name: "Wordpress" },
             { name: "HTML5", img: require("./img/HTML5_Badge.png") },
             { name: "CSS3", img: require("./img/CSS3_Badge.png") },
           ],
