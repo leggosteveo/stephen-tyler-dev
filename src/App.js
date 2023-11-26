@@ -1,12 +1,13 @@
 import React from "react";
 import { Component } from "react";
-import Navi from "./js/components/Navi";
+import About from "./js/components/About";
 import Footer from "./js/components/Footer";
+import Intro from "./js/components/Intro";
+import Navi from "./js/components/Navi";
 import ProjectsList from "./js/components/ProjectsList";
 import "./App.css";
 import "./index.css";
 import SkillsList from "./js/components/SkillsList";
-const pdfFile = require("./docs/Stephen_Tyler_Resume.PDF");
 
 class App extends Component {
   constructor(props) {
@@ -66,15 +67,6 @@ class App extends Component {
           gitHub: "https://github.com/leggosteveo/luther-construction",
         },
         {
-          title: "Trale Williams Imaging",
-          description:
-            "This was a project I built for the client's photography company. It was my first introduction to using Javascript frameworks, and it utilitized AngularJS",
-          image: require("./img/trale_williams_project.png"),
-          tech: [],
-          url: "https://trale-williams.onrender.com",
-          gitHub: "",
-        },
-        {
           title: "Diana Carlstrom Events",
           description:
             "This was a project I built for the client's event planning business",
@@ -92,56 +84,17 @@ class App extends Component {
   render() {
     const projectsArr = this.state.projects;
     const skillsArr = this.state.skills;
-    let projectsDisplay = <ProjectsList projects={projectsArr} />;
-    let skillsDisplay = <SkillsList skills={skillsArr} />;
-    const pdf = pdfFile;
     return (
       <div className="App">
         <Navi />
+        <Intro />
         <div className="content" id="home">
-          <section className="inner" id="intro">
-            <div className="center">
-              <img
-                src={require("./img/IMG-2527.JPG")}
-                alt="Picture of Stephen Tyler"
-                className="intro-img"
-              />
-              <h2>
-                Hello, my name is <span className="my-name">Stephen Tyler</span>
-                .
-                <br />I am a student of web development and I enjoy learning new
-                techonologies.
-              </h2>
-            </div>
-          </section>
-          <section id="skills-section" className="inner">
-            {skillsDisplay}
-          </section>
-          <section id="projects-section" className="inner">
-            {projectsDisplay}
-          </section>
-          <section className="inner" id="about-section">
-            <div>
-              <h2 className="section-title">ABOUT</h2>
-              <p>
-                I am a graduate of the University of South Florida, born and
-                raised in Arcadia, FL. I enjoy creating cool things: Art,
-                Websites, Music. I hope you found this site to be beneficial and
-                thanks for visiting.
-              </p>
-
-              <span className="fa fa-file resume-link">
-                <a
-                  href={require("./docs/Stephen_Tyler_Resume.PDF")}
-                  className="resume-link"
-                  target="blank"
-                >
-                  VIEW RESUME
-                </a>
-              </span>
-            </div>
-          </section>
-          <Footer />
+          <div id="home-main">
+            <About />
+            <SkillsList skills={skillsArr} />
+            <ProjectsList projects={projectsArr} />
+            <Footer />
+          </div>
         </div>
       </div>
     );

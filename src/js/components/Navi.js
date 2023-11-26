@@ -5,7 +5,9 @@ import { Link } from "react-scroll";
 
 const Navi = () => (
   <Navbar bg="dark" variant="dark" expand="lg">
-    <Navbar.Brand href="#home">STEPHEN TYLER</Navbar.Brand>
+    <h1>
+      <Navbar.Brand href="#home">STEPHEN TYLER</Navbar.Brand>
+    </h1>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="ml-auto">

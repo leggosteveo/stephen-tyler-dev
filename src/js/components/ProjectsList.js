@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import ProjectsItem from "./ProjectsItem";
 
 const ProjectsList = ({ projects }) => (
-  <div>
+  <section id="projects-section" className="inner">
     <h2 className="section-title container">PROJECTS</h2>
     <div className="container">
       <div className="project-row row">
@@ -16,7 +16,7 @@ const ProjectsList = ({ projects }) => (
         </div>
       </div>
     </div>
-  </div>
+  </section>
 );
 
 ProjectsList.propTypes = {

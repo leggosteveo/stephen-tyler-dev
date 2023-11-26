@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const ProjectsItem = ({ projectInfo }) => {
   return (
@@ -6,7 +6,9 @@ const ProjectsItem = ({ projectInfo }) => {
       <h3 className="project-title">{projectInfo.title}</h3>
       <p>{projectInfo.description}</p>
       <div>
-        <img src={projectInfo.image} className="img-fluid" />
+        {projectInfo.image && (
+          <img src={projectInfo.image} className="img-fluid" alt=""/>
+        )}
       </div>
       <div>
         {projectInfo.tech.length > 1 && (
