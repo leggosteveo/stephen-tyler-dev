@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74a23807246d51816d23cd630ef29010",
+    "revision": "f03b50ba783e2cc4581c61ffb3372ef5",
     "url": "/stephen-tyler-dev/index.html"
   },
   {
-    "revision": "096386db499796551c3c",
+    "revision": "263ccc9ac1c133632c35",
     "url": "/stephen-tyler-dev/static/css/2.a2367d05.chunk.css"
   },
   {
-    "revision": "39ad325fae6feab07ea3",
-    "url": "/stephen-tyler-dev/static/css/main.548095db.chunk.css"
+    "revision": "04faa0bb56bd369efaee",
+    "url": "/stephen-tyler-dev/static/css/main.4c0fa1ed.chunk.css"
   },
   {
-    "revision": "096386db499796551c3c",
-    "url": "/stephen-tyler-dev/static/js/2.4b7abc26.chunk.js"
+    "revision": "263ccc9ac1c133632c35",
+    "url": "/stephen-tyler-dev/static/js/2.40cf2219.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/stephen-tyler-dev/static/js/2.4b7abc26.chunk.js.LICENSE.txt"
+    "url": "/stephen-tyler-dev/static/js/2.40cf2219.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "39ad325fae6feab07ea3",
-    "url": "/stephen-tyler-dev/static/js/main.6e42d374.chunk.js"
+    "revision": "04faa0bb56bd369efaee",
+    "url": "/stephen-tyler-dev/static/js/main.dddcc45c.chunk.js"
   },
   {
     "revision": "816cf42634b66a299be7",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stephen-tyler-dev/static/media/Heroku_Badge.7dd506e7.png"
   },
   {
-    "revision": "90eda1bee4310e05ac39633c09078cc7",
-    "url": "/stephen-tyler-dev/static/media/IMG-2527.90eda1be.JPG"
+    "revision": "a56f9ce021aa1db2d9b34977db7df8fb",
+    "url": "/stephen-tyler-dev/static/media/IMG_1166.a56f9ce0.jpg"
   },
   {
     "revision": "314607286fdc022a3d302e35d1c15600",
@@ -106,9 +106,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c1b0c6eebbba33dfc94be689f6371349",
     "url": "/stephen-tyler-dev/static/media/stephen_dev_project.c1b0c6ee.png"
-  },
-  {
-    "revision": "fb226ec349ba4e6e286369b995fb8f76",
-    "url": "/stephen-tyler-dev/static/media/trale_williams_project.fb226ec3.png"
   }
 ]);

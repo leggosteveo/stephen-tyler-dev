@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/stephen-tyler-dev/static/css/main.548095db.chunk.css",
-    "main.js": "/stephen-tyler-dev/static/js/main.6e42d374.chunk.js",
-    "main.js.map": "/stephen-tyler-dev/static/js/main.6e42d374.chunk.js.map",
+    "main.css": "/stephen-tyler-dev/static/css/main.4c0fa1ed.chunk.css",
+    "main.js": "/stephen-tyler-dev/static/js/main.dddcc45c.chunk.js",
+    "main.js.map": "/stephen-tyler-dev/static/js/main.dddcc45c.chunk.js.map",
     "runtime-main.js": "/stephen-tyler-dev/static/js/runtime-main.565b2bc9.js",
     "runtime-main.js.map": "/stephen-tyler-dev/static/js/runtime-main.565b2bc9.js.map",
     "static/css/2.a2367d05.chunk.css": "/stephen-tyler-dev/static/css/2.a2367d05.chunk.css",
-    "static/js/2.4b7abc26.chunk.js": "/stephen-tyler-dev/static/js/2.4b7abc26.chunk.js",
-    "static/js/2.4b7abc26.chunk.js.map": "/stephen-tyler-dev/static/js/2.4b7abc26.chunk.js.map",
+    "static/js/2.40cf2219.chunk.js": "/stephen-tyler-dev/static/js/2.40cf2219.chunk.js",
+    "static/js/2.40cf2219.chunk.js.map": "/stephen-tyler-dev/static/js/2.40cf2219.chunk.js.map",
     "index.html": "/stephen-tyler-dev/index.html",
-    "precache-manifest.e97381801afb6a95885f234c7e389df4.js": "/stephen-tyler-dev/precache-manifest.e97381801afb6a95885f234c7e389df4.js",
+    "precache-manifest.64abdd62b899ce44bfbc6ced22308675.js": "/stephen-tyler-dev/precache-manifest.64abdd62b899ce44bfbc6ced22308675.js",
     "service-worker.js": "/stephen-tyler-dev/service-worker.js",
     "static/css/2.a2367d05.chunk.css.map": "/stephen-tyler-dev/static/css/2.a2367d05.chunk.css.map",
-    "static/css/main.548095db.chunk.css.map": "/stephen-tyler-dev/static/css/main.548095db.chunk.css.map",
-    "static/js/2.4b7abc26.chunk.js.LICENSE.txt": "/stephen-tyler-dev/static/js/2.4b7abc26.chunk.js.LICENSE.txt",
+    "static/css/main.4c0fa1ed.chunk.css.map": "/stephen-tyler-dev/static/css/main.4c0fa1ed.chunk.css.map",
+    "static/js/2.40cf2219.chunk.js.LICENSE.txt": "/stephen-tyler-dev/static/js/2.40cf2219.chunk.js.LICENSE.txt",
     "static/media/AngularJS_Badge.png": "/stephen-tyler-dev/static/media/AngularJS_Badge.061c45a8.png",
     "static/media/Bootstrap_Badge.png": "/stephen-tyler-dev/static/media/Bootstrap_Badge.1704dd76.png",
     "static/media/CSS3_Badge.png": "/stephen-tyler-dev/static/media/CSS3_Badge.3d5faf5c.png",
     "static/media/ExpressJS_Badge.png": "/stephen-tyler-dev/static/media/ExpressJS_Badge.c3dcfc3e.png",
     "static/media/Github_Badge.png": "/stephen-tyler-dev/static/media/Github_Badge.c543e0f9.png",
     "static/media/Heroku_Badge.png": "/stephen-tyler-dev/static/media/Heroku_Badge.7dd506e7.png",
-    "static/media/IMG-2527.JPG": "/stephen-tyler-dev/static/media/IMG-2527.90eda1be.JPG",
+    "static/media/IMG_1166.jpg": "/stephen-tyler-dev/static/media/IMG_1166.a56f9ce0.jpg",
     "static/media/JQuery_Badge.png": "/stephen-tyler-dev/static/media/JQuery_Badge.31460728.png",
     "static/media/Javascript_Badge.png": "/stephen-tyler-dev/static/media/Javascript_Badge.c65bbbe1.png",
     "static/media/MongoDB_Badge.png": "/stephen-tyler-dev/static/media/MongoDB_Badge.ce316b43.png",
@@ -29,14 +29,13 @@
     "static/media/Stephen_Tyler_Resume.PDF": "/stephen-tyler-dev/static/media/Stephen_Tyler_Resume.61c0ff3b.PDF",
     "static/media/font-awesome.min.css": "/stephen-tyler-dev/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/luther_project.png": "/stephen-tyler-dev/static/media/luther_project.f8cc0b31.png",
-    "static/media/stephen_dev_project.png": "/stephen-tyler-dev/static/media/stephen_dev_project.c1b0c6ee.png",
-    "static/media/trale_williams_project.png": "/stephen-tyler-dev/static/media/trale_williams_project.fb226ec3.png"
+    "static/media/stephen_dev_project.png": "/stephen-tyler-dev/static/media/stephen_dev_project.c1b0c6ee.png"
   },
   "entrypoints": [
     "static/js/runtime-main.565b2bc9.js",
     "static/css/2.a2367d05.chunk.css",
-    "static/js/2.4b7abc26.chunk.js",
-    "static/css/main.548095db.chunk.css",
-    "static/js/main.6e42d374.chunk.js"
+    "static/js/2.40cf2219.chunk.js",
+    "static/css/main.4c0fa1ed.chunk.css",
+    "static/js/main.dddcc45c.chunk.js"
   ]
 }
