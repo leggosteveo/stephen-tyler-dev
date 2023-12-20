@@ -55,7 +55,7 @@ const Navi = () => (
           About
         </Nav.Link>
         <Nav.Link
-          href={require("../../docs/Stephen_Tyler_Resume.PDF")}
+          href={require("../../docs/Stephen_Tyler_Resume_24.pdf")}
           target="blank"
         >
           Resume

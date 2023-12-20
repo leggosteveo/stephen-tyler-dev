@@ -1,9 +1,9 @@
 import React from "react";
 
 const About = () => (
-    <section className="inner" id="about-section">
+    <section className="inner container px-3 px-lg-5" id="about-section">
               <div>
-                <h2 className="section-title container">ABOUT</h2>
+                <h2 className="section-title">ABOUT</h2>
                 <p>
                   I am a graduate of the University of South Florida, born and
                   raised in Arcadia, FL. I enjoy creating cool things: Art,

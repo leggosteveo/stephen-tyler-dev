@@ -8,7 +8,7 @@ const Footer = () => (
       <h6>Location: Tampa, FL</h6>
       <h6>
         Email:
-        <a href="mailto:sjtyler2@mail.usf.edu"> sjtyler2@mail.usf.edu</a>
+        <a href="mailto:styler8807@gmail.com"> styler8807@gmail.com</a>
       </h6>
     </footer>
   </section>
