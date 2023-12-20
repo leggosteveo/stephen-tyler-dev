@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Signika:wght@400;500;600;700&display=swap");
+
 @media screen and (max-width: 360px) {
   .name {
-    font-size: 1rem; 
+    font-size: 1rem;
   }
 }
 
@@ -51,49 +53,9 @@ nav img {
   height: 325px;
 }
 
-#about-section {
-  margin-bottom: 20px;
-}
-
-#desktop-social-links-div {
-  display: none;
-}
-
-#footer-section {
-  margin: 0;
-  padding: 0;
-}
-
-#hello-my-name-is {
-  color: #a78141;
-}
-
-#large-nav {
-  text-align: center;
-}
-
-#mobile-social-links-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  position: relative;
-}
-
-#mobile-social-links-div,
-#desktop-social-links-div {
-  background-color: black;
-  bottom: -1px;
-  color: white;
-  left: 0;
-  width: 100%;
-  z-index: 5;
-}
-
-#social-links-div div {
-  height: 100%;
-  margin: 0 auto;
-  padding: 5px 0;
-  vertical-align: middle;
+p {
+  color: #343434;
+  font-family: "Signika";
 }
 
 .App {
@@ -137,7 +99,7 @@ nav img {
 }
 
 .damp {
-  color:#616260;
+  color: #616260;
 }
 
 .fa {
@@ -158,7 +120,10 @@ nav img {
 .name {
   color: #122e04;
   font-size: 3rem;
+  font-family: Caveat, cursive;
   font-weight: bolder;
+  margin-bottom: -0.25rem;
+  margin-left: -0.25rem;
 }
 
 .navbar {
@@ -253,6 +218,11 @@ nav img {
   color: white !important;
 }
 
+.project-description {
+  font-size: 70%;
+  color: white;
+}
+
 .project-div {
   background-color: #a69a59;
   border-bottom: 2px solid#122e04;
@@ -265,9 +235,9 @@ nav img {
   white-space: normal;
 }
 
-.project-description {
-  font-size: 70%;
-  color: white;
+.project-div p {
+  color: #0c0c0c;
+  font-family: "Signika";
 }
 
 .project-info {
@@ -315,8 +285,10 @@ nav img {
 
 .section-title {
   color: #122e04;
-  font-family: "Arial Bold", sans-serif;
+  font-family: Signika;
+  font-size: 2.25rem;
   font-weight: bolder;
+  margin-top: 2rem;
 }
 
 .site-code-div {
@@ -414,8 +386,56 @@ nav img {
   width: 2.5rem;
 }
 
+#about-section {
+  margin-bottom: 20px;
+}
+
+#desktop-social-links-div {
+  display: none;
+}
+
+#footer-section {
+  margin: 0;
+  padding: 0;
+}
+
+#hello-my-name-is {
+  color: #b89d71;
+}
+
+#large-nav {
+  text-align: center;
+}
+
+#mobile-social-links-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+}
+
+#mobile-social-links-div,
+#desktop-social-links-div {
+  background-color: black;
+  bottom: -1px;
+  color: white;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+#social-links-div div {
+  height: 100%;
+  margin: 0 auto;
+  padding: 5px 0;
+  vertical-align: middle;
+}
+
 #home-intro {
   background-color: #f6f4e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 1rem;
   position: relative;
   top: 72px;
@@ -527,6 +547,10 @@ nav img {
     width: 50%;
   }
 
+  .section-title {
+    font-size: 3rem;
+  }
+
   .skills-inner {
     padding: 2rem;
     padding-top: 1rem;
@@ -549,7 +573,7 @@ nav img {
     display: flex;
     flex-direction: column;
     height: calc(100vh - 4rem);
-    justify-content: flex-start;
+    justify-content: space-between;
     padding: 2rem 1rem;
     position: fixed;
     width: 30%;

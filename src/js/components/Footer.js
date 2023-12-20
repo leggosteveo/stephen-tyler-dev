@@ -4,7 +4,6 @@ const Footer = () => (
   <section id="footer-section">
     <footer>
       <h3 id="contact-me">Contact Me</h3>
-      <h6>Phone: 863-990-4530</h6>
       <h6>Location: Tampa, FL</h6>
       <h6>
         Email:
