@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ce4d9db984a2f53e4104020db292671e",
+    "revision": "638de75651e49357adaea88ddfa64aa1",
     "url": "/stephen-tyler-dev/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stephen-tyler-dev/static/css/2.a2367d05.chunk.css"
   },
   {
-    "revision": "e7dc5917d6e13f61cb45",
-    "url": "/stephen-tyler-dev/static/css/main.773a0ff4.chunk.css"
+    "revision": "e3f925c2bbff758f637d",
+    "url": "/stephen-tyler-dev/static/css/main.76cff84f.chunk.css"
   },
   {
     "revision": "6ee35df7c07fe122065a",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stephen-tyler-dev/static/js/2.118bf938.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e7dc5917d6e13f61cb45",
-    "url": "/stephen-tyler-dev/static/js/main.f5b79302.chunk.js"
+    "revision": "e3f925c2bbff758f637d",
+    "url": "/stephen-tyler-dev/static/js/main.a38a561b.chunk.js"
   },
   {
     "revision": "816cf42634b66a299be7",

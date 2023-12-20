@@ -57,7 +57,7 @@ const focusVariant = {
   animate: {
     opacity: 1,
     transition: {
-      delay: 4,
+      delay: 3,
       duration: 2,
       staggerChildren: 0.1,
     },
