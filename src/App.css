@@ -574,6 +574,7 @@ p {
     flex-direction: column;
     height: calc(100vh - 4rem);
     justify-content: space-between;
+    min-height: calc(100vh - 72px);
     padding: 2rem 1rem;
     position: fixed;
     width: 30%;
