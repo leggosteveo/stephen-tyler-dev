@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/stephen-tyler-dev/static/css/main.a6f268e1.chunk.css",
-    "main.js": "/stephen-tyler-dev/static/js/main.6a4991b3.chunk.js",
-    "main.js.map": "/stephen-tyler-dev/static/js/main.6a4991b3.chunk.js.map",
+    "main.css": "/stephen-tyler-dev/static/css/main.fd4e825e.chunk.css",
+    "main.js": "/stephen-tyler-dev/static/js/main.5ecca1f5.chunk.js",
+    "main.js.map": "/stephen-tyler-dev/static/js/main.5ecca1f5.chunk.js.map",
     "runtime-main.js": "/stephen-tyler-dev/static/js/runtime-main.565b2bc9.js",
     "runtime-main.js.map": "/stephen-tyler-dev/static/js/runtime-main.565b2bc9.js.map",
     "static/css/2.a2367d05.chunk.css": "/stephen-tyler-dev/static/css/2.a2367d05.chunk.css",
-    "static/js/2.118bf938.chunk.js": "/stephen-tyler-dev/static/js/2.118bf938.chunk.js",
-    "static/js/2.118bf938.chunk.js.map": "/stephen-tyler-dev/static/js/2.118bf938.chunk.js.map",
+    "static/js/2.32566457.chunk.js": "/stephen-tyler-dev/static/js/2.32566457.chunk.js",
+    "static/js/2.32566457.chunk.js.map": "/stephen-tyler-dev/static/js/2.32566457.chunk.js.map",
     "index.html": "/stephen-tyler-dev/index.html",
-    "precache-manifest.1cfb9827216e3e1b77bb876f97e258a8.js": "/stephen-tyler-dev/precache-manifest.1cfb9827216e3e1b77bb876f97e258a8.js",
+    "precache-manifest.7668b30dc325754a1792db4038181cd4.js": "/stephen-tyler-dev/precache-manifest.7668b30dc325754a1792db4038181cd4.js",
     "service-worker.js": "/stephen-tyler-dev/service-worker.js",
     "static/css/2.a2367d05.chunk.css.map": "/stephen-tyler-dev/static/css/2.a2367d05.chunk.css.map",
-    "static/css/main.a6f268e1.chunk.css.map": "/stephen-tyler-dev/static/css/main.a6f268e1.chunk.css.map",
-    "static/js/2.118bf938.chunk.js.LICENSE.txt": "/stephen-tyler-dev/static/js/2.118bf938.chunk.js.LICENSE.txt",
+    "static/css/main.fd4e825e.chunk.css.map": "/stephen-tyler-dev/static/css/main.fd4e825e.chunk.css.map",
+    "static/js/2.32566457.chunk.js.LICENSE.txt": "/stephen-tyler-dev/static/js/2.32566457.chunk.js.LICENSE.txt",
+    "static/media/3-devices-black.png": "/stephen-tyler-dev/static/media/3-devices-black.537ccdeb.png",
     "static/media/AngularJS_Badge.png": "/stephen-tyler-dev/static/media/AngularJS_Badge.061c45a8.png",
     "static/media/Bootstrap_Badge.png": "/stephen-tyler-dev/static/media/Bootstrap_Badge.1704dd76.png",
     "static/media/CSS3_Badge.png": "/stephen-tyler-dev/static/media/CSS3_Badge.3d5faf5c.png",
@@ -34,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.565b2bc9.js",
     "static/css/2.a2367d05.chunk.css",
-    "static/js/2.118bf938.chunk.js",
-    "static/css/main.a6f268e1.chunk.css",
-    "static/js/main.6a4991b3.chunk.js"
+    "static/js/2.32566457.chunk.js",
+    "static/css/main.fd4e825e.chunk.css",
+    "static/js/main.5ecca1f5.chunk.js"
   ]
 }
