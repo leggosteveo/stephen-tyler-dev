@@ -442,6 +442,10 @@ p {
   top: 72px;
 }
 
+#home-intro div:first-child {
+  margin-top: 1rem;
+}
+
 #home-main .section-title:not(:first-child) {
   margin-top: 2rem;
 }
